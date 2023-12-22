@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "NoeDisplay";
+  src: url('@/assets/fonts/NoeDisplay-bold.ttf');
+}
+
+body{
+  background-color: #011627;
+  color: #fff;
+}
+
+#app {
+}
+
+.title{
+  font-family: "NoeDisplay";
+}
+
+.header-title{
+  font-family: "NoeDisplay";
+  color: #FFF;
+  font-family: Noe Display;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.4px; 
+}
