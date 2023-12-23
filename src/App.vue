@@ -1,21 +1,21 @@
 
 <template>
-  <div class="container">
-    <Header/>
-  </div>
+  <Navbar />
+  <Header/>
   
-  <PickupTrip/>
+  <PickYourTrip/>
   <About/>
   <Testimonials/>
   <Footer/>
 </template>
 
 <script setup>
-import Header from './components/Header.vue';
-import PickupTrip from './components/PickupTrip.vue';
-import About from './components/About.vue';
-import Testimonials from './components/Testimonials.vue';
-import Footer from './components/Footer.vue';
+import Navbar from './sections/Navbar.vue';
+import Header from './sections/Header.vue';
+import PickYourTrip from './sections/PickYourTrip.vue';
+import About from './sections/About.vue';
+import Testimonials from './sections/Testimonials.vue';
+import Footer from './sections/Footer.vue';
 
 </script>
 
